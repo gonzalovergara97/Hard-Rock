@@ -1,5 +1,5 @@
 body{
-  background: #b46012;
+  background: #161616;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 header{
@@ -9,28 +9,8 @@ header{
 #wrapper{
   margin: 0 auto;
   width: 800px;
-  background:rgb(59, 54, 54);
-  color: #fff;
-}
-
-#content, #sidebar{
-  float:left;
-}
-
-#content{
-  width:70%;
-}
-
-#sidebar{
-      width:20%;
-      color: #e79c10;
-      margin-top: 50px;
-      padding: 5px;
-      border: solid 2px #e79c10;
-}
-
-footer{
-  clear:both;
+  background:rgb(32, 31, 31);
+  color: rgb(165, 159, 159);
 }
 
 #wrapper header img{
@@ -38,14 +18,40 @@ footer{
   margin-top: 20px;
 }
 
+#content, #sidebar{
+  float:left;
+}
+
+/* Sidebar menu a la derecha*/
+#sidebar{
+  width:20%;
+  color: #e79c10;
+  margin-top: 50px;
+  padding: 5px;
+  border: solid 1px #b81a15;
+  background: #504f4d78;
+  border-radius: 10px;
+}
+
+#sidebar-list-2{
+  color: rgb(214, 73, 30);
+  list-style-image: url(https://cutt.ly/eflc4cy );
+  margin-left: -2px;
+}
+
+#icopeli{
+  margin-left: 27px;
+}
+
 /* Fija la navegacion arriba*/
 #horzNav{
   position: sticky;
   top: 0;
-  background: #312e2a;
+  background: #e79c10;
   padding: 14px;
   display: flex;
   justify-content: center;
+  border-radius: 30px;
 }
 
 #horzNav ul {
@@ -59,21 +65,22 @@ footer{
 }
 
 #horzNav ul li a {
-  
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  color: #b4241f; 
+  color: #b81a15; 
 }
 
 #horzNav ul li a:hover {
-  background-color: #e79c10;
+  background-color: #b81a15;
   color: #e9cdcd;
 }
-  
+
+/* Contenido columna izquierda*/
 #content {
+  width:70%;
   padding: 20px;
   text-align: justify;
   line-height: 180%;
@@ -81,9 +88,10 @@ footer{
 
 #content h1, h2{  
   text-align: center;
-  color: #e79c10;
+  color: #b81a15;
   font-size:xx-large;
 }
+
 #content h2{
   font-size:x-large;
 }
@@ -98,17 +106,7 @@ article #videoi{
   padding: 5px 15px 5px 1px
 }
 
-
-#sidebar-list-2{
-  color: rgb(214, 73, 30);
-  list-style-position: inside;
-  list-style-image: url(https://cutt.ly/eflc4cy );
-}
-
-#icopeli{
-  margin-left: 27px;
-}
-
+/* Botones*/
 #buttons .site-button {
 	box-shadow: 0px 1px 0px 0px #fff6af;
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -123,14 +121,19 @@ article #videoi{
 	padding:6px 24px;
 	text-decoration:none;
   width: 15%;
+  
 }
 #buttons .site-button:hover {
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
   background-color:#ffab23;
   text-decoration:none;
 }
+#buttons .site-button a {
+	color: #b81a15;
+  text-decoration:none;
+}
 
-
+/* Footer*/
 footer {
     clear: both;
     line-height: 1.3em;
