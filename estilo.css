@@ -1,0 +1,145 @@
+body{
+  background: #b46012;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+header{
+  padding: 0px 0px 10px 0px;
+}
+
+#wrapper{
+  margin: 0 auto;
+  width: 800px;
+  background:rgb(59, 54, 54);
+  color: #fff;
+}
+
+#content, #sidebar{
+  float:left;
+}
+
+#content{
+  width:70%;
+}
+
+#sidebar{
+      width:20%;
+      color: #e79c10;
+      margin-top: 50px;
+      padding: 5px;
+      border: solid 2px #e79c10;
+}
+
+footer{
+  clear:both;
+}
+
+#wrapper header img{
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+/* Fija la navegacion arriba*/
+#horzNav{
+  position: sticky;
+  top: 0;
+  background: #312e2a;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+#horzNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#horzNav ul li {
+  display: inline;
+}
+
+#horzNav ul li a {
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #b4241f; 
+}
+
+#horzNav ul li a:hover {
+  background-color: #e79c10;
+  color: #e9cdcd;
+}
+  
+#content {
+  padding: 20px;
+  text-align: justify;
+  line-height: 180%;
+}
+
+#content h1, h2{  
+  text-align: center;
+  color: #e79c10;
+  font-size:xx-large;
+}
+#content h2{
+  font-size:x-large;
+}
+
+article #videod{
+  float: right;
+  padding: 5px 1px 5px 15px;
+}
+
+article #videoi{
+  float: left;
+  padding: 5px 15px 5px 1px
+}
+
+
+#sidebar-list-2{
+  color: rgb(214, 73, 30);
+  list-style-position: inside;
+  list-style-image: url(https://cutt.ly/eflc4cy );
+}
+
+#icopeli{
+  margin-left: 27px;
+}
+
+#buttons .site-button {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  width: 15%;
+}
+#buttons .site-button:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color:#ffab23;
+  text-decoration:none;
+}
+
+
+footer {
+    clear: both;
+    line-height: 1.3em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(125,125,125);
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  
